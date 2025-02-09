@@ -60,10 +60,25 @@ img {
     padding: 10px 30px;
     border: 3px solid #cffffd;
     border-radius: 10px;
+    color: #000000;
 }
 
 .linkButtons:hover {
     background-color: #4ce0db;
+}
+
+.linkButtonsAlt {
+    text-decoration: none;
+    background-color: #4f9bff;
+    text-align: center;
+    padding: 10px 30px;
+    border: 3px solid #01204a;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.linkButtonsAlt:hover {
+    background-color: #6babff;
 }
 
 footer {
