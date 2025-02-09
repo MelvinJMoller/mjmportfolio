@@ -43,6 +43,8 @@ main {
     column-gap: 50px;
     margin-bottom: 20px;
     border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 img {
@@ -61,6 +63,7 @@ img {
     border: 3px solid #cffffd;
     border-radius: 10px;
     color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .linkButtons:hover {
@@ -75,6 +78,7 @@ img {
     border: 3px solid #01204a;
     border-radius: 10px;
     color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .linkButtonsAlt:hover {
