@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #65ad6e;
+}
+
+#Title {
+    background-color: #74e878;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 3px #17591a;
+}
+
+#Title h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2 span{
+    color: #ffffff;
+}
+
+#AceMessage {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#DealerCards img {
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+    box-shadow: 3px 4px 5px #17591a;
+}
+
+@media(max-width: 500px) {
+    #DealerCards img {
+        height: 125px;
+        width: 75px;
+        box-shadow: 0px 0px 0px #17591a;
+    }
+}
+
+#PlayerCards img {  
+    height: 200px;
+    width: 150px;
+    margin: 1px;
+    box-shadow: 3px 4px 5px #17591a;
+}
+
+@media(max-width: 500px) {
+    #PlayerCards img {
+        height: 125px;
+        width: 75px;
+        box-shadow: 0px 0px 0px #17591a;
+    }
+}
+
+#NewGameBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #dfeff0;
+    box-shadow: 0px 4px 5px #17591a;
+    margin-bottom: 50px;
+}
+
+#NewGameBtn:hover {
+    background-color: #b8dcde;
+}
+
+@media(max-width: 500px) {
+    #NewGameBtn {
+        box-shadow: 0px 0px 0px #17591a;
+    }
+}
+
+#HitBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #dfeff0;
+    box-shadow: -3px 4px 5px #17591a;
+}
+
+#HitBtn:hover {
+    background-color: #b8dcde;
+}
+
+@media(max-width: 500px) {
+    #HitBtn {
+        box-shadow: 0px 0px 0px #17591a;
+    }
+}
+
+#StayBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #dfeff0;
+    box-shadow: 3px 4px 5px #17591a;
+}
+
+#StayBtn:hover {
+    background-color: #b8dcde;
+}
+
+@media(max-width: 500px) {
+    #StayBtn {
+        box-shadow: 0px 0px 0px #17591a;
+    }
+}
+
+#ResultMsg {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #590703;
+    color: #ffffff;
+}
+
+@media(max-width: 500px) {
+    #ResultMsg {
+        font-size: 30px;
+    }
+}

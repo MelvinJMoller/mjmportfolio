@@ -53,6 +53,19 @@ img {
     margin-bottom: 10px;
 }
 
+.linkButtons {
+    text-decoration: none;
+    background-color: #54fff9;
+    text-align: center;
+    padding: 10px 30px;
+    border: 3px solid #cffffd;
+    border-radius: 10px;
+}
+
+.linkButtons:hover {
+    background-color: #4ce0db;
+}
+
 footer {
     display: flex;
     flex-direction: row;
