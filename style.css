@@ -48,11 +48,11 @@ main {
 }
 
 img {
-    height: 400px;
-    width: 200px;
+    height: 440px;
+    width: 220px;
     border: 3px solid #54fff9;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .linkButtons {
