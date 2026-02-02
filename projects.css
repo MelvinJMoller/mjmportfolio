@@ -74,7 +74,7 @@ main {
 
 .projectLinks {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -118,4 +118,10 @@ main {
 
 #backBtn:hover {
     background-color: #916969;
+}
+
+#secretBtn {
+    text-decoration: none;
+    font-size: 8px;
+    color: #ffffff;
 }

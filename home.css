@@ -55,9 +55,19 @@ main {
 
 #textBox1 {
     border-bottom: 1px solid;
+    width: 350px;
 }
 
 #textBox1 p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textBox2 {
+    border-top: 1px solid;
+}
+
+#textBox2 p {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -76,6 +86,24 @@ main {
 }
 
 .linkButtons:hover {
+    background-color: #859fab;
+}
+
+#resumeButton {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #6e6b56;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+#resumeButton:hover {
     background-color: #859fab;
 }
 
