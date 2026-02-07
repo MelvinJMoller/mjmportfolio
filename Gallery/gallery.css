@@ -3,6 +3,18 @@ body {
     background-color: #bdb299;
 }
 
+#bodyGas {
+    background-color: #fa654b;
+}
+
+#bodyCat {
+    background-color: #faccff;
+}
+
+#bodyTic {
+    background-color: #3b3b3b;
+}
+
 #bodySection {
     margin-top: 50px;
     margin-right: 200px;
@@ -53,27 +65,8 @@ main {
     padding-bottom: 2%;
 }
 
-.projectSection {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-    border-top: 1px solid;
-    margin-bottom: 20px;
-}
-
-.projectLeft {
-    margin-right: 20px;
-    width: 350px;
-}
-
-.projectLeft h3 {
-    border-bottom: 1px solid;
-}
-
-.projectLinks {
+.itemSec {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -81,56 +74,21 @@ main {
     justify-content: center;
 }
 
-.projectLinks a {
-    text-decoration: none;
-    font-size: 18px;
-    background-color: #333333;
-    text-align: center;
-    padding: 10px 30px;
-    margin: 10px;
-    border: 2px solid;
-    border-radius: 40px;
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.projectLinks a:hover {
-    background-color: #859fab;
-}
-
-#galleryBtns {
-    background-color: #919191;
-}
-
-#galleryBtns:hover {
-    background-color: #859fab;
-}
-
-.thumbnail {
-    height: 550px;
-    width: 250px;
+.picDiv img {
+    height: 600px;
+    width: 300px;
     border: solid;
 }
 
-#backBtn {
-    text-decoration: none;
-    font-size: 18px;
-    background-color: #634b4b;
-    text-align: center;
-    padding: 10px 30px;
-    margin: 10px;
-    border: 2px solid;
-    border-radius: 0px 10px 10px 40px;
-    color: #ffffff;
+.picBio {
+    border-bottom: 1px solid;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picBio p {
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-#backBtn:hover {
-    background-color: #916969;
-}
-
-#secretBtn {
-    text-decoration: none;
-    font-size: 8px;
-    color: #ffffff;
 }
