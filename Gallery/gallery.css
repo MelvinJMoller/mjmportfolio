@@ -8,7 +8,7 @@ body {
 }
 
 #bodyCat {
-    background-color: #faccff;
+    background-color: #fce3ff;
 }
 
 #bodyTic {
@@ -80,7 +80,28 @@ main {
     border: solid;
 }
 
+#logo {
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+
+#bigScreen {
+    height: 900px;
+    width: 500px;
+    border: solid;
+}
+
+@media(max-width: 1100px) {
+    #bigScreen {
+        height: 600px;
+        width: 300px;
+        border: solid;
+    }
+}
+
 .picBio {
+    margin-bottom: 10px;
     border-bottom: 1px solid;
     width: 350px;
     display: flex;
